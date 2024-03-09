@@ -82,26 +82,26 @@ DWORD WINAPI Payload(LPVOID lpParam)
         , {_XOR_("Inf Syringes"), false}
         , {_XOR_("Inf Syringes(Legit)"), true}
         , {_XOR_("Inf Stamina"), true}
-        , {_XOR_("Inf Stratagems"), true}
+        , {_XOR_("Inf Stratagems"), false}
         , {_XOR_("MoveSpeed X6"), false}
         , {_XOR_("Inf Mission Time"), false}
         //, {"One / Two Hit Kill ( Bile Titan Bug, Aim Only Head )", false}
-        , {_XOR_("No Reload"), true}
-        , {_XOR_("No Reload V2"), true}
+        , {_XOR_("No Reload"), false}
+        , {_XOR_("No Reload V2"), false}
         , {_XOR_("Max Resources"), false}
-        , {_XOR_("Add 5 Samples"), true}
+        , {_XOR_("Add 5 Samples"), false}
         , {_XOR_("No Recoil"), true}
-        , {_XOR_("Inf Backpack"), true}
+        , {_XOR_("Inf Backpack"), false}
         , {_XOR_("Inf Special Weapon"), false}
-        , {_XOR_("No Laser Cannon Overheat"), true}
-        , {_XOR_("Instant Railgun"), true}
+        , {_XOR_("No Laser Cannon Overheat"), false}
+        , {_XOR_("Instant Railgun"), false}
         , {_XOR_("Show All Map Icons"), true}
-        , {_XOR_("No Stationary Turret Overheat"), true}
-        , {_XOR_("No Backpack Shield Cooldown"), true}
-        , {_XOR_("No JetPack Cooldown"), true}
-        , {_XOR_("All Stratagems in Loadout"), true}
-        , {_XOR_("All Equipment in Armory"), true}
-        , {_XOR_("All Armor in Armory"), true}
+        , {_XOR_("No Stationary Turret Overheat"), false}
+        , {_XOR_("No Backpack Shield Cooldown"), false}
+        , {_XOR_("No JetPack Cooldown"), false}
+        , {_XOR_("All Stratagems in Loadout"), false}
+        , {_XOR_("All Equipment in Armory"), false}
+        , {_XOR_("All Armor in Armory"), false}
     
     }; // Initialize all checkboxes to unchecked
     const int numCheckboxes = checkboxes.size();
