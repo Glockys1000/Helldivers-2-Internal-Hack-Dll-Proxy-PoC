@@ -74,13 +74,13 @@ DWORD WINAPI Payload(LPVOID lpParam)
 
     //Console Menu
     std::vector<Checkbox> checkboxes = { 
-          {_XOR_("Inf Health"), true}
-        , {_XOR_("Inf Grenades"), false}
-        , {_XOR_("Inf Grenades(Legit)"), true}
-        , {_XOR_("Inf Ammo"), false}
-        , {_XOR_("Inf Ammo(Legit)"), true}
-        , {_XOR_("Inf Syringes"), false}
-        , {_XOR_("Inf Syringes(Legit)"), true}
+          {_XOR_("Inf Health"), false}
+        , {_XOR_("Inf Grenades"), true}
+        , {_XOR_("Inf Grenades(Legit)"), false}
+        , {_XOR_("Inf Ammo"), true}
+        , {_XOR_("Inf Ammo(Legit)"), false}
+        , {_XOR_("Inf Syringes"), true}
+        , {_XOR_("Inf Syringes(Legit)"), false}
         , {_XOR_("Inf Stamina"), true}
         , {_XOR_("Inf Stratagems"), false}
         , {_XOR_("MoveSpeed X6"), false}
@@ -96,12 +96,12 @@ DWORD WINAPI Payload(LPVOID lpParam)
         , {_XOR_("No Laser Cannon Overheat"), false}
         , {_XOR_("Instant Railgun"), false}
         , {_XOR_("Show All Map Icons"), true}
-        , {_XOR_("No Stationary Turret Overheat"), false}
-        , {_XOR_("No Backpack Shield Cooldown"), false}
-        , {_XOR_("No JetPack Cooldown"), false}
-        , {_XOR_("All Stratagems in Loadout"), false}
-        , {_XOR_("All Equipment in Armory"), false}
-        , {_XOR_("All Armor in Armory"), false}
+        , {_XOR_("No Stationary Turret Overheat"), true}
+        , {_XOR_("No Backpack Shield Cooldown"), true}
+        , {_XOR_("No JetPack Cooldown"), true}
+        , {_XOR_("All Stratagems in Loadout"), true}
+        , {_XOR_("All Equipment in Armory"), true}
+        , {_XOR_("All Armor in Armory"), true}
     
     }; // Initialize all checkboxes to unchecked
     const int numCheckboxes = checkboxes.size();
