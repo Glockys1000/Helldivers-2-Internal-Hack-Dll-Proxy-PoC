@@ -86,8 +86,8 @@ DWORD WINAPI Payload(LPVOID lpParam)
         , {_XOR_("MoveSpeed X6"), false}
         , {_XOR_("Inf Mission Time"), false}
         //, {"One / Two Hit Kill ( Bile Titan Bug, Aim Only Head )", false}
-        , {_XOR_("No Reload"), false}
-        , {_XOR_("No Reload V2"), false}
+        , {_XOR_("No Reload"), true}
+        , {_XOR_("No Reload V2"), true}
         , {_XOR_("Max Resources"), false}
         , {_XOR_("Add 5 Samples"), false}
         , {_XOR_("No Recoil"), true}
@@ -99,9 +99,9 @@ DWORD WINAPI Payload(LPVOID lpParam)
         , {_XOR_("No Stationary Turret Overheat"), true}
         , {_XOR_("No Backpack Shield Cooldown"), true}
         , {_XOR_("No JetPack Cooldown"), true}
-        , {_XOR_("All Stratagems in Loadout"), true}
-        , {_XOR_("All Equipment in Armory"), true}
-        , {_XOR_("All Armor in Armory"), true}
+        , {_XOR_("All Stratagems in Loadout"), false}
+        , {_XOR_("All Equipment in Armory"), false}
+        , {_XOR_("All Armor in Armory"), false}
     
     }; // Initialize all checkboxes to unchecked
     const int numCheckboxes = checkboxes.size();
